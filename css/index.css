@@ -1,0 +1,155 @@
+@font-face {
+    font-family: FiraR;
+    src: url("../fonts/FiraSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: FiraB;
+    src: url("../fonts/FiraSans-Bold.ttf");
+}
+
+html{
+    background-color: #E5E5E5;
+    font-family: 'FiraR';
+    color: #00240f;
+    width: 100%;
+    padding: 0px;
+}
+
+body{
+    background-color: white;
+    position: relative;
+    width: 80%;
+    left: 10%;
+    margin: 0px;
+    border-radius: 50px;
+}
+
+#header{
+    height: 6%;
+    display: flex;
+    align-items: center;
+    width: 98%;
+    padding: 1%;
+}
+
+#logo{
+    margin-right: auto;
+}
+
+#menu{
+    margin-right: 36px;
+    display: flex;
+    align-items: center;
+    height: fit-content;
+}
+
+#menu>*{
+    text-decoration: none;
+    margin-right: 36px;
+}
+
+a{
+    color: #00240f;
+}
+
+#home{
+    color: #EC0000;
+}
+
+button{
+    border: 0;
+    font-family: 'FiraR';
+    text-align: center;
+    color: white;
+    border-radius: 100px;
+    background-color: #EC0000;
+    padding: 0.7rem 1.7rem;
+}
+
+#centeredtitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content1{
+    width: 100%;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+#title{
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'FiraB';
+}
+
+h1{
+    font-size: 3rem;
+}
+
+#title>button{
+    width: fit-content;
+}
+
+#home_image{
+    position: relative;
+    margin-left: auto;
+}
+
+#gradient{
+    position: absolute;
+    height: 549px;
+    width: 703px;
+    background: linear-gradient(0.25turn, #ffffff, #FFFFFF88, #FFFFFF00, #FFFFFF00);
+}
+
+.content2{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.pizza{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+    width: 200px;
+    padding: 2%;
+    border: thin solid gray;
+    border-radius: 1000px 1000px 200px 200px;
+    box-shadow: -10px 15px 10px silver;
+}
+
+.pizza:hover{
+    box-shadow: -20px 30px 30px silver;
+    transform: scale(1.02);
+}
+
+.price{
+    text-align: center;
+    color: #05a84b;
+    font-family: 'FiraB';
+    font-size: 1.5rem;
+}
+
+select{
+    background-color: white;
+    font-family: 'FiraR';
+    border: thin solid;
+    border-radius: 100px;
+    padding: 0.5rem ;
+    margin-bottom: 10px;
+}
+
+#footer{
+    height: 1rem;
+    padding: 2rem;
+    width: 100%;
+    text-align: center;
+}
